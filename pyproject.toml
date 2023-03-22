@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "modeling-project"
+version = "0.1.0"
+description = ""
+authors = ["Mamzi <mohammadreza.osouli@gmail.com>"]
+readme = "README.md"
+packages = [{include = "modeling_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+open3d = "^0.17.0"
+scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
